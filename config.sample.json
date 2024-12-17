@@ -1,0 +1,26 @@
+{
+  "volume_verification": {
+    "pocket_universe_api_key": "your-pocket-universe-api-key",
+    "min_real_volume_ratio": 0.7
+  },
+  "telegram": {
+    "bot_token": "your-telegram-bot-token",
+    "chat_id": "your-chat-id",
+    "bonkbot": {
+      "api_key": "your-bonkbot-api-key",
+      "chat_id": "your-bonkbot-chat-id"
+    }
+  },
+  "trading": {
+    "min_liquidity_usd": 10000,
+    "min_volume_24h": 5000,
+    "trade_amount_usd": 100,
+    "slippage_percent": 1,
+    "stop_loss_percent": 5,
+    "take_profit_percent": 20
+  },
+  "blacklist": {
+    "tokens": [],
+    "deployers": []
+  }
+}
